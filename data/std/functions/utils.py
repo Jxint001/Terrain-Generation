@@ -5,7 +5,7 @@ import numpy as np
 import random
 
 # Utility Functions for Minecraft Commands
-f = open("./data/std/functions/test.mcfunction",'w')
+f = open("test.mcfunction",'w')
 def setblock(x: int, y: int, z: int, block_name: str):
     print("setblock {} {} {} minecraft:".format(x, y, z) + block_name, file=f)
 
